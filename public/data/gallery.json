@@ -1,0 +1,87 @@
+{
+  "gallery": [
+    {
+      "id": 1,
+      "img": "/gallery/_DSC0194_result.jpg"
+    },
+    {
+      "id": 2,
+      "img": "/gallery/_DSC0439_result.png"
+    },
+    {
+      "id": 3,
+      "img": "/gallery/_DSC9207_result.jpg"
+    },
+    {
+      "id": 4,
+      "img": "/gallery/_DSC9274_result.jpg"
+    },
+    {
+      "id": 5,
+      "img": "/gallery/_DSC9275_result.jpg"
+    },
+    {
+      "id": 6,
+      "img": "/gallery/_DSC9276_result.jpg"
+    },
+    {
+      "id": 7,
+      "img": "/gallery/_DSC9337.jpg"
+    },
+    {
+      "id": 8,
+      "img": "/gallery/_DSC9379_result.jpg"
+    },
+    {
+      "id": 9,
+      "img": "/gallery/_DSC9383_result.jpg"
+    },
+    {
+      "id": 10,
+      "img": "/gallery/_DSC9401_result.jpg"
+    }
+  ],
+
+  "modalGallery": [
+    {
+      "id": 1,
+      "img": "/gallery/modalphotos/_DSC0194.jpg"
+    },
+    {
+      "id": 2,
+      "img": "/gallery/modalphotos/_DSC0439.dng"
+    },
+    {
+      "id": 3,
+      "img": "/gallery/modalphotos/_DSC9207.jpg"
+    },
+    {
+      "id": 4,
+      "img": "/gallery/modalphotos/_DSC9274.jpg"
+    },
+    {
+      "id": 5,
+      "img": "/gallery/modalphotos/_DSC9275.jpg"
+    },
+    {
+      "id": 6,
+      "img": "/gallery/modalphotos/_DSC9276.jpg"
+    },
+    {
+      "id": 7,
+      "img": "/gallery/modalphotos/_DSC9337.jpg"
+    },
+    {
+      "id": 8,
+      "img": "/gallery/modalphotos/_DSC9379.jpg"
+    },
+    {
+      "id": 9,
+      "img": "/gallery/modalphotos/_DSC9383.jpg"
+    },
+    {
+      "id": 10,
+      "img": "/gallery/modalphotos/_DSC9401.jpg"
+    }
+  ]
+}

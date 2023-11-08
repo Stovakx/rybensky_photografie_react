@@ -1,6 +1,5 @@
 import Image from "next/image";
-import React from "react";
-import { Masonry } from "@mui/material";
+import Masonry from '@mui/lab/Masonry';
 
 export default function IndexGallery({ photos, errorMessage }) {
   return (

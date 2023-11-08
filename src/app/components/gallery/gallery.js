@@ -1,6 +1,3 @@
-/* vytvořit galerie pro všechny stránky + modalGallery + aby se na nakliknutou 
-fotku ukázala plněhodnotná správná fotka podle id, takže na id1 se musí ukázat id1 */
-/*  */
 import React from "react";
 import Image from "next/image";
 

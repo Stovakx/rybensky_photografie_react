@@ -11,9 +11,9 @@ export default function Ostatni() {
       <main className="text-center pt-0 md:pt-3">
         <h1 className="text-4xl">Ostatní</h1>
         <p className="mt-6">Příroda, budovy a vše, co naše země nabídne.</p>
-        <Gallery photos={photos} errorMessage={errorMessage} />
-        <ContactBtn />
       </main>
+      <Gallery photos={photos} errorMessage={errorMessage} />
+      <ContactBtn />
     </div>
   );
 }

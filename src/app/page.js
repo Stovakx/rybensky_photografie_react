@@ -1,5 +1,10 @@
+'use client'
 import ContactBtn from '@/app/components/contactBtn/contactBtn';
+import usePhotos from './utils/usePhotos';
+import IndexGallery from './components/indexGallery/indexGallery';
+
 export default function Home() {
+  const {photos, errorMessage} = usePhotos('gallery')
   return (
     <div className="max-w-7xl pt-32  justify-center mx-auto px-4 sm:px-6 lg:px-8">
       <main className="text-center pt-0 md:pt-3">
@@ -12,10 +17,8 @@ export default function Home() {
           za zájem.
         </p>
       </main>
-      {/* gallery napsat json data pro fotky, map přes id, kontrola length */}
-      <div className="gallery">
+      <IndexGallery photos={photos} errorMessage={errorMessage} />
 
-      </div>
       <div
         className="about mt-10 
             rounded-xl

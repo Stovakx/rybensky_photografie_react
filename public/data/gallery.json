@@ -40,48 +40,7 @@
       "id": 10,
       "img": "/gallery/_DSC9401_result.jpg"
     }
-  ],
-
-  "modalGallery": [
-    {
-      "id": 1,
-      "img": "/gallery/modalphotos/_DSC0194.jpg"
-    },
-    {
-      "id": 2,
-      "img": "/gallery/modalphotos/_DSC0439.dng"
-    },
-    {
-      "id": 3,
-      "img": "/gallery/modalphotos/_DSC9207.jpg"
-    },
-    {
-      "id": 4,
-      "img": "/gallery/modalphotos/_DSC9274.jpg"
-    },
-    {
-      "id": 5,
-      "img": "/gallery/modalphotos/_DSC9275.jpg"
-    },
-    {
-      "id": 6,
-      "img": "/gallery/modalphotos/_DSC9276.jpg"
-    },
-    {
-      "id": 7,
-      "img": "/gallery/modalphotos/_DSC9337.jpg"
-    },
-    {
-      "id": 8,
-      "img": "/gallery/modalphotos/_DSC9379.jpg"
-    },
-    {
-      "id": 9,
-      "img": "/gallery/modalphotos/_DSC9383.jpg"
-    },
-    {
-      "id": 10,
-      "img": "/gallery/modalphotos/_DSC9401.jpg"
-    }
   ]
+
+
 }

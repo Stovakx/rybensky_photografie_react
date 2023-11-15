@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <Head>
         {/* favicon nefunguje */}
-        <link rel="favicon" href="./icon.png" type="image/x-icon" />
+        <link rel="shortcut icon" href="/icon.png"/>
       </Head>
       <body className={inter.className}>
         <header>

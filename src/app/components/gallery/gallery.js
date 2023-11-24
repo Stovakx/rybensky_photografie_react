@@ -6,7 +6,7 @@ export default function Gallery({ photos, errorMessage }) {
     <div className="gallery grid grid-cols-2 md:grid-cols-4 lg:grid-cols-3 gap-2 mt-5">
       {photos.length > 0 ? (
         photos.map((photo) => (
-          <div key={photo.id} className="h-52 relative lg:h-80 ">
+          <div key={photo.id} className="h-52 relative lg:h-96 ">
             <Image
               className="gallery-img "
               src={photo.img}

@@ -9,9 +9,9 @@ export default function IndexGallery() {
   const images = [
     { src: "/gallery/_DSC0194_result.jpg", isPortrait: true },
     { src: "/gallery/_DSC0439_result.png", isPortrait: true },
+    { src: "/gallery/_DSC9274_result.jpg", isPortrait: false },
     { src: "/gallery/_DSC9207_result.jpg", isPortrait: true },
     { src: "/gallery/_DSC9401_result.jpg", isPortrait: true },
-    { src: "/gallery/_DSC9274_result.jpg", isPortrait: false },
     { src: "/gallery/_DSC9275_result.jpg", isPortrait: false },
     { src: "/gallery/_DSC9276_result.jpg", isPortrait: false },
     { src: "/gallery/_DSC9379_result.jpg", isPortrait: true },
@@ -24,19 +24,22 @@ export default function IndexGallery() {
     setSelectedImage(index);
     setModalOpen(true);
   };
-
+/* vymyslet lepší logiku pro prohazování order obrázků ??? */
   return (
     <>
-      <div className="gallery grid grid-cols-5 grid-rows-auto gap-3 my-8">
+      <div className="gallery grid grid-cols-5 grid-rows-auto gap-1 mx-auto my-8">
         {images.map((item, index) => (
           <div
             key={index}
-            className={`grid-item relative order-${index +1} ${
+            className={`grid-item relative order-${index + 1} ${
               item.isPortrait
-                ? " h-52 sm:h-72 lg:h-80 col-span-3 md:col-span-2 lg:col-span-1"
-                : "col-span-6 lg:col-span-2 h-52 sm:h-64 md:h-80"
-            } ${index === 3 ? "order-4 md:order-7" : ""}
-            ${index === 6 ? `md:order-10 lg:order-12 lg:col-span-3`:""}`}
+                ? "h-52 sm:h-72 lg:h-96 col-span-3 md:col-span-2 lg:col-span-1"
+                : "col-span-6 lg:col-span-2 h-52 sm:h-64 md:h-96"
+              }
+              ${index === 2 ? "md:order-4 md:col-span-4":"" }
+              ${index === 3 ? "md:order-3":""}
+              ${index === 9 ? "md:order-11" :""}
+              ${index === 10 ?"md:order-10 md:h-96":"" }`}
             onClick={() => openModal(index)}
           >
             <Image src={item.src} alt="" fill={true} objectFit="cover" />

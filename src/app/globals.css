@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html{
+  font-family: 'Montserrat', sans-serif;
+}
 
 body {
   height: 100vh;
@@ -50,6 +55,10 @@ body {
 
 .contactBtn:active {
   transform: scale(0.95);
+}
+
+.kontaktText{
+  text-wrap: balance;
 }
 
 @keyframes fly-1 {

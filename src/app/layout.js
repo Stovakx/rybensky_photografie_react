@@ -21,7 +21,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-        {/* favicon nefunguje */}
         <link rel="shortcut icon" href="/icon.png"/>
       </Head>
       <body className={inter.className}>

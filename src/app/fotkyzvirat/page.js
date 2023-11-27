@@ -17,7 +17,7 @@ export default function FotkyZvirat() {
         </p>
       </main>
       <Gallery photos={photos} errorMessage={errorMessage} />
-      <ContactBtn />
+      <ContactBtn text={"kontaktujte mě"}/>
     </div>
   );
 }

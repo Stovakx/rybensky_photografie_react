@@ -15,7 +15,7 @@ export default function ParoveFotky() {
         </p>
       </main>
       <Gallery photos={photos} errorMessage={errorMessage} />
-      <ContactBtn />
+      <ContactBtn text={"kontaktujte mě"}/>
     </div>
   );
 }

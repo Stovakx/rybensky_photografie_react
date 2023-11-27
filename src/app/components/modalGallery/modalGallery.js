@@ -4,7 +4,7 @@ import Modal from "react-modal";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import CloseIcon from "@mui/icons-material/Close";
-Modal.setAppElement('.__className_e66fe9');
+Modal.setAppElement(".__className_e66fe9");
 
 const ModalGallery = ({ images, isOpen, selectedImage, onClose }) => {
   return (
@@ -15,13 +15,13 @@ const ModalGallery = ({ images, isOpen, selectedImage, onClose }) => {
       shouldCloseOnEsc={true}
       contentLabel="Image Modal"
     >
-        <div className="modal-header relative h-1/5">
-          <button onClick={onClose} className="absolute right-0 top-3">
-            <CloseIcon className="text-4xl" />
-          </button>
-        </div>
-      <div className="modal-content   h-4/5 flex justify-center items-center overflow-x-hidden">
-        <div className="image-slider w-2/3 ">
+      <div className="modal-header relative h-1/5">
+        <button onClick={onClose} className="absolute right-0 top-3">
+          <CloseIcon className="text-4xl" />
+        </button>
+      </div>
+      <div className="modal-content w-full  h-4/5 flex justify-center items-center">
+        <div className="image-slider w-1/3 h-2/3 ">
           <Carousel selectedItem={selectedImage} showThumbs={false}>
             {images.map((image, index) => (
               <div key={index} className="image-slide h-96">

@@ -46,7 +46,7 @@ export default function Home() {
           </p>
         </section>
       </div>
-      <ContactBtn/>
+      <ContactBtn text={"kontaktujte mě"}/>
     </div>
   );
 }

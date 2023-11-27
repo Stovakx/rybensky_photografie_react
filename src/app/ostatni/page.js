@@ -13,7 +13,7 @@ export default function Ostatni() {
         <p className="mt-6">Příroda, budovy a vše, co naše země nabídne.</p>
       </main>
       <Gallery photos={photos} errorMessage={errorMessage} />
-      <ContactBtn />
+      <ContactBtn text={"kontaktujte mě"}/>
     </div>
   );
 }

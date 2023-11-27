@@ -38,6 +38,7 @@ export default function Navbar() {
                   alt="Rybenský photo logo"
                   width={80}
                   height={60}
+                  className="scale-150"
                 />
               </a>
             </div>
